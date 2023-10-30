@@ -2,7 +2,7 @@ import React from "react";
 import "../Footer/footer.css";
 import arrow from "../../Images/Svg/Arrow.svg";
 import { useEffect } from "react";
-
+import icon from "../../Images/Svg/Check.svg";
 
 function Footer() {
   useEffect(() => {
@@ -20,9 +20,12 @@ function Footer() {
         </div>
         <div className="footercontent">
           <div className="logo">
-            <div className="Header">Cstudio</div>
+            <div className="Header">Orioncruz</div>
             {/* <img    src="" alt="logo" className='csLogo' /> */}
             <div className="mission">
+              <div>
+                <img src={icon} alt="icon" className="icon" />
+              </div>
               empower businesses and organizations to thrive in the
               ever-evolving digital landscape
             </div>
