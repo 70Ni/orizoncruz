@@ -1,4 +1,3 @@
 [build]
-  command = "npm run build && node ./sayHello.js"
-  CI= true npm run build
+  CI= true npm run build 
 
