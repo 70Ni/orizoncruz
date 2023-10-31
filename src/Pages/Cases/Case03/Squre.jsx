@@ -31,28 +31,25 @@ function Squre() {
         <div className="Caseintro">
           <div className="Logo">
             <img src={Logo} alt="logo" />
-            <div className="para">Todo Applicaton</div>
+            <div className="para">Ecommerce Applicaton</div>
           </div>
           <div className="subtxt caseintrotxt">
-            evenly five centuries, but also the leap into electronic
-            typesetting, remaining essentially unchanged.
+            RealEstate Ecommerce Application for Buying,Listing and communications
           </div>
         </div>
         <div>
           <div className="caseimgwrpr">
             <div className="caseintImg">
-              <img src={images[0]} alt="caseStudyImage" className="caseBannerimg" />
+              <img src={images[0]} alt="caseStudyImage"  className="caseBannerimg" />
             </div>
           </div>
         </div>
         <div className="casedetails">
           <div className="casedatawrper">
             <div className="casedeta">
-              <div className="Header">About Tilda</div>
+              <div className="Header">About Space</div>
               <div className="subtxt">
-                evenly five centuries, but also the leap into electronic
-                typesetting
-              </div>
+              Sharing Property and Spaces to the client. Made to notify, understand and updates with new listings              </div>
               <div className="linktoCase storyheader caseprolink">
                 Check the workflow
                 <img src={arrow} alt="" className="linkarrow" />
@@ -62,24 +59,19 @@ function Squre() {
               <div className="casemetwrper">
                 <div className="caseSection">Service</div>
                 <div className="casepara">
-                  evenly five centuries, but also the leap into electronic
-                  typesetting, remaining essentially unchanged.
+                  Interface and Brand design
                 </div>
               </div>
               <div className="casemetwrper">
-                <div className="caseSection">Service</div>
+                <div className="caseSection">Industry</div>
                 <div className="casepara">
-                  evenly five centuries, but also the leap into electronic
-                  typesetting, remaining essentially unchanged.
+                  RealEstate and Property related
                 </div>
               </div>
               <div className="casemetwrper">
-                <div className="caseSection">Service</div>
+                <div className="caseSection">Objective</div>
                 <div className="casepara">
-                  evenly five centuries, but also the leap into electronic
-                  typesetting, remaininevenly five centuries, but also the leap
-                  into electronic typesettingg essentialevenly five centuries,
-                  but also the leap into electronic typesettingly unchanged.
+                  The Objective was to create an easy way to share the property listings. Thus the user can find  properties, pricing, features, and let them interact with the client.
                 </div>
               </div>
             </div>
@@ -91,16 +83,14 @@ function Squre() {
             <div className="subtxt">Color Theory</div>
             <div className="globdatawrper">
               <div className="globTypowrpr">
-                <div className="color-circ"></div>
-                <div className="colorname">Inter</div>
+                <div className="color-circ" style={{border:"5px solid #50A953"}}></div>
+              </div>
+
+              <div className="globTypowrpr">
+                <div className="color-circ" style={{border:"5px solid #2D652E"}}></div>
               </div>
               <div className="globTypowrpr">
-                <div className="color-circ"></div>
-                <div className="colorname">Inter</div>
-              </div>
-              <div className="globTypowrpr">
-                <div className="color-circ"></div>
-                <div className="colorname">Inter</div>
+              <div className="color-circ" style={{border:"5px solid #143313"}}></div>
               </div>
             </div>
           </div>
@@ -108,13 +98,13 @@ function Squre() {
             <div className="subtxt">Typrography</div>
             <div className="globdatawrper">
               <div className="globTypowrpr">
-                <div className="font-prim">Aa</div>
+                <div className="font-prim" style={{fontFamily: "Inter"}}>Aa</div>
                 <div className="fontname">Inter</div>
               </div>
-              <div className="globTypowrpr">
+              {/* <div className="globTypowrpr">
                 <div className="font-prim">Aa</div>
                 <div className="fontname">Inter</div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

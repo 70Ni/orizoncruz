@@ -31,11 +31,10 @@ function Cinecio() {
         <div className="Caseintro">
           <div className="Logo">
             <img src={Logo} alt="logo" />
-            <div className="para">Todo Applicaton</div>
+            <div className="para">Movie Application</div>
           </div>
           <div className="subtxt caseintrotxt">
-            evenly five centuries, but also the leap into electronic
-            typesetting, remaining essentially unchanged.
+            Cine App is to share updates on Movie events and to Book a show.
           </div>
         </div>
         <div>
@@ -48,10 +47,9 @@ function Cinecio() {
         <div className="casedetails">
           <div className="casedatawrper">
             <div className="casedeta">
-              <div className="Header">About Tilda</div>
+              <div className="Header">About CineCio</div>
               <div className="subtxt">
-                evenly five centuries, but also the leap into electronic
-                typesetting
+                Latest updates on the Movie Events and Theater experience
               </div>
               <div className="linktoCase storyheader caseprolink">
                 Check the workflow
@@ -62,24 +60,19 @@ function Cinecio() {
               <div className="casemetwrper">
                 <div className="caseSection">Service</div>
                 <div className="casepara">
-                  evenly five centuries, but also the leap into electronic
-                  typesetting, remaining essentially unchanged.
+                  User Interface and research
                 </div>
               </div>
               <div className="casemetwrper">
-                <div className="caseSection">Service</div>
+                <div className="caseSection">Industry</div>
                 <div className="casepara">
-                  evenly five centuries, but also the leap into electronic
-                  typesetting, remaining essentially unchanged.
+                  Tech and Film
                 </div>
               </div>
               <div className="casemetwrper">
-                <div className="caseSection">Service</div>
+                <div className="caseSection">Objective</div>
                 <div className="casepara">
-                  evenly five centuries, but also the leap into electronic
-                  typesetting, remaininevenly five centuries, but also the leap
-                  into electronic typesettingg essentialevenly five centuries,
-                  but also the leap into electronic typesettingly unchanged.
+                  The main objective of the project was to create a better experience for the user who are trying to book a Movie. Also to make better experience with the transactions and sharing feedback
                 </div>
               </div>
             </div>
@@ -91,16 +84,16 @@ function Cinecio() {
             <div className="subtxt">Color Theory</div>
             <div className="globdatawrper">
               <div className="globTypowrpr">
-                <div className="color-circ"></div>
-                <div className="colorname">Inter</div>
+                <div className="color-circ" style={{border:"5px Solid #EB4B2F"}}></div>
+                <div className="colorname"></div>
               </div>
               <div className="globTypowrpr">
-                <div className="color-circ"></div>
-                <div className="colorname">Inter</div>
+                <div className="color-circ" style={{border:"5px Solid #461111"}}></div>
+                <div className="colorname"></div>
               </div>
               <div className="globTypowrpr">
-                <div className="color-circ"></div>
-                <div className="colorname">Inter</div>
+                <div className="color-circ" style={{border:"5px Solid #120206"}}></div>
+                <div className="colorname"></div>
               </div>
             </div>
           </div>
@@ -108,8 +101,8 @@ function Cinecio() {
             <div className="subtxt">Typrography</div>
             <div className="globdatawrper">
               <div className="globTypowrpr">
-                <div className="font-prim">Aa</div>
-                <div className="fontname">Inter</div>
+                <div className="font-prim" style={{fontFamily:'Kanit'}}>Aa</div>
+                <div className="fontname">Kanit</div>
               </div>
               <div className="globTypowrpr">
                 <div className="font-prim">Aa</div>

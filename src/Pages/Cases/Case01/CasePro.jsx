@@ -31,16 +31,15 @@ function CasePro() {
         <div className="Caseintro">
           <div className="Logo">
             <img src={Logo} alt="logo" />
-            <div className="para">Todo Applicaton</div>
+            <div className="para">Gaming Accessories</div>
           </div>
           <div className="subtxt caseintrotxt">
-            evenly five centuries, but also the leap into electronic
-            typesetting, remaining essentially unchanged.
+          Redesigning the xbox console for a new Inspirations and feel
           </div>
         </div>
         <div>
           <div className="caseimgwrpr">
-            <div className="caseintImg">
+            <div className="caseintImg"  style={{background:"#202807"}}>
               <img src={images[5]} alt="caseStudyImage" className="caseBannerimg" />
             </div>
           </div>
@@ -48,10 +47,9 @@ function CasePro() {
         <div className="casedetails">
           <div className="casedatawrper">
             <div className="casedeta">
-              <div className="Header">About Tilda</div>
+              <div className="Header">Xbox console</div>
               <div className="subtxt">
-                evenly five centuries, but also the leap into electronic
-                typesetting
+                Xbox console was a concept design. The project was to share the features and experience of new xbox console from a different prospective.
               </div>
               <div className="linktoCase storyheader caseprolink">
                 Check the workflow
@@ -62,24 +60,19 @@ function CasePro() {
               <div className="casemetwrper">
                 <div className="caseSection">Service</div>
                 <div className="casepara">
-                  evenly five centuries, but also the leap into electronic
-                  typesetting, remaining essentially unchanged.
+                  Interaface Design
                 </div>
               </div>
               <div className="casemetwrper">
-                <div className="caseSection">Service</div>
+                <div className="caseSection">Industry</div>
                 <div className="casepara">
-                  evenly five centuries, but also the leap into electronic
-                  typesetting, remaining essentially unchanged.
+                  Game Design and accessories
                 </div>
               </div>
               <div className="casemetwrper">
-                <div className="caseSection">Service</div>
+                <div className="caseSection">Objectives</div>
                 <div className="casepara">
-                  evenly five centuries, but also the leap into electronic
-                  typesetting, remaininevenly five centuries, but also the leap
-                  into electronic typesettingg essentialevenly five centuries,
-                  but also the leap into electronic typesettingly unchanged.
+                  The objective was to express the xbox material and feel to user. We created the design based on the shape and behaviour of the console. Also this need to express the game based previews with out loosing the inspiration.
                 </div>
               </div>
             </div>
@@ -91,16 +84,13 @@ function CasePro() {
             <div className="subtxt">Color Theory</div>
             <div className="globdatawrper">
               <div className="globTypowrpr">
-                <div className="color-circ"></div>
-                <div className="colorname">Inter</div>
+                <div className="color-circ" style={{border: "5px solid #E9BA59"}}></div>
               </div>
               <div className="globTypowrpr">
-                <div className="color-circ"></div>
-                <div className="colorname">Inter</div>
+                <div className="color-circ" style={{border: "5px solid #6AD62D"}}></div>
               </div>
               <div className="globTypowrpr">
-                <div className="color-circ"></div>
-                <div className="colorname">Inter</div>
+                <div className="color-circ" style={{border: "5px solid #212907"}}></div>
               </div>
             </div>
           </div>
@@ -108,13 +98,10 @@ function CasePro() {
             <div className="subtxt">Typrography</div>
             <div className="globdatawrper">
               <div className="globTypowrpr">
-                <div className="font-prim">Aa</div>
-                <div className="fontname">Inter</div>
+                <div className="font-prim" style={{fontFamily:'Lexend'}}>Aa</div>
+                <div className="fontname">Lexend</div>
               </div>
-              <div className="globTypowrpr">
-                <div className="font-prim">Aa</div>
-                <div className="fontname">Inter</div>
-              </div>
+          
             </div>
           </div>
         </div>
