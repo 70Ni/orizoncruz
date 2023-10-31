@@ -7,7 +7,8 @@
     width: fit-content;
     margin: 4px;
     color: #000912;
-    border: 1px solid #000912;
+    background-color: #e4c6b2;
+    /* border: 1px solid #000912; */
 
     font-weight: 500;
     font-family: 'Inter', Courier, monospace;

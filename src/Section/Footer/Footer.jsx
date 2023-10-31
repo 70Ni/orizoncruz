@@ -23,9 +23,9 @@ function Footer() {
             <div className="Header">Orioncruz</div>
             {/* <img    src="" alt="logo" className='csLogo' /> */}
             <div className="mission">
-              <div>
+              {/* <div>
                 <img src={icon} alt="icon" className="icon" />
-              </div>
+              </div> */}
               empower businesses and organizations to thrive in the
               ever-evolving digital landscape
             </div>

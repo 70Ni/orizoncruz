@@ -25,9 +25,7 @@ function Capabilities() {
             <div className="captag">Startup</div>
             <div className="captag">Web 3.0</div>
             <div className="captag">Figma</div>
-            <div className="captag"></div>
-            <div className="captag"></div>
-            <div className="captag"></div>
+       
           </div>
         </div>
       </div>

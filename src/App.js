@@ -30,14 +30,14 @@ function App() {
         <Router>
           <Routes>
             <Route exact path="/"  element={<Land />} />
-            <Route exact path="/casestudy"  element={<Casestudy />} />
-            <Route exact path="/Cinecio"  element={<Cinecio />} />
-            <Route exact path="/Space"  element={<Squre />} />
-            <Route exact path="/success"  element={<Success />} />
-            <Route exact path="/casepro"  element={<CasePro />} />
-            <Route exact path="/client"  element={<Clients />} />
-            <Route exact path="/process"  element={<Process />} />
-            <Route exact path="/connect"  element={<Mission />} />
+            <Route  path="/casestudy"  element={<Casestudy />} />
+            <Route  path="/Cinecio"  element={<Cinecio />} />
+            <Route  path="/Space"  element={<Squre />} />
+            <Route  path="/success"  element={<Success />} />
+            <Route  path="/casepro"  element={<CasePro />} />
+            <Route  path="/client"  element={<Clients />} />
+            <Route  path="/process"  element={<Process />} />
+            <Route  path="/connect"  element={<Mission />} />
           </Routes>
         </Router>
         {/* <Navigation /> */}

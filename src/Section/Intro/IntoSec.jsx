@@ -9,14 +9,11 @@ function IntoSec() {
     <div>
       <div className="IntroWrapper">
         <div className="LeftInt">
-          <div className="IntroTXT">We are growing Design Agency</div>
+          <div className="IntroTXT">Design is  thinking  made  visual</div>
         </div>
         <div className="RightInt">
           <div className="IntrigtTop">
-            Orioncruz is a dynamic and innovative digital agency dedicated to
-            helping businesses thrive in the digital realm. With Passionate,
-            cutting-edge technology, and a commitment to excellence, we've been
-            at the forefront of digital marketing and web development.
+          Orioncruz is a dynamic and innovative digital agency dedicated to helping businesses thrive in the digital field. With passionate, cutting-edge technology, and a commitment to excellence, we've been assisting clients worldwide.
           </div>
           <div className="IntrigtbotFlex">
             <img src={Arrow} alt="fireSpot" className="ImgArrow" />
