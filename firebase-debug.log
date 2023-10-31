@@ -1,0 +1,31 @@
+[debug] [2023-10-31T06:12:05.178Z] ----------------------------------------------------------------------
+[debug] [2023-10-31T06:12:05.266Z] Command:       /home/tony/.nvm/versions/node/v20.9.0/bin/node /home/tony/.nvm/versions/node/v20.9.0/bin/firebase deploy
+[debug] [2023-10-31T06:12:05.268Z] CLI Version:   12.7.0
+[debug] [2023-10-31T06:12:05.269Z] Platform:      linux
+[debug] [2023-10-31T06:12:05.269Z] Node Version:  v20.9.0
+[debug] [2023-10-31T06:12:05.270Z] Time:          Tue Oct 31 2023 11:42:05 GMT+0530 (India Standard Time)
+[debug] [2023-10-31T06:12:05.270Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-31T06:12:05.550Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-31T06:12:05.552Z] > authorizing via signed-in user (4thedevelopments@gmail.com)
+[debug] [2023-10-31T06:12:05.553Z] [iam] checking project orioncruz-3dd5f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-31T06:12:05.569Z] > refreshing access token with scopes: []
+[debug] [2023-10-31T06:12:05.571Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-10-31T06:12:05.571Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-31T06:12:06.257Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-10-31T06:12:06.258Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-31T06:12:06.325Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/orioncruz-3dd5f:testIamPermissions [none]
+[debug] [2023-10-31T06:12:06.326Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/orioncruz-3dd5f:testIamPermissions x-goog-quota-user=projects/orioncruz-3dd5f
+[debug] [2023-10-31T06:12:06.326Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/orioncruz-3dd5f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-31T06:12:07.740Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/orioncruz-3dd5f:testIamPermissions 200
+[debug] [2023-10-31T06:12:07.740Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/orioncruz-3dd5f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-31T06:12:07.743Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/orioncruz-3dd5f [none]
+[debug] [2023-10-31T06:12:08.382Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/orioncruz-3dd5f 200
+[debug] [2023-10-31T06:12:08.383Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/orioncruz-3dd5f {"projectId":"orioncruz-3dd5f","projectNumber":"290202131609","displayName":"orioncruz","name":"projects/orioncruz-3dd5f","resources":{"hostingSite":"orioncruz-3dd5f","realtimeDatabaseInstance":"orioncruz-3dd5f-default-rtdb"},"state":"ACTIVE","etag":"1_3ca5ed37-1b09-4bc3-9d9f-750318abe197"}
+[debug] [2023-10-31T06:12:08.387Z] Specified "public" directory "build" does not exist; Deploy to Hosting site "orioncruz-3dd5f" may fail or be empty.
+[info] 
+[info] === Deploying to 'orioncruz-3dd5f'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-10-31T06:12:08.407Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/orioncruz-3dd5f/versions [none]
+[debug] [2023-10-31T06:12:08.407Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/orioncruz-3dd5f/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
