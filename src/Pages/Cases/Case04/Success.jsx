@@ -6,6 +6,8 @@ import Logo from "../../../Images/Img/Deolittle.png";
 import image from "../../../Images/Img/Image.png";
 import CaseCard from "../../Casestudy/CaseCard";
 import arrow from "../../../Images/Svg/Arrowdark.svg";
+import casecard from "../../../json/casestudy.js";
+
 
 function importAll(r) {
   return r.keys().map(r);
@@ -15,6 +17,7 @@ const images = importAll(
   require.context("../../../Images/Img/Success/", false, /\.(png|jpe?g|svg)$/)
 );
 console.log(images);
+let Header = "Success.ai";
 
 function Success() {
   useEffect(() => {
@@ -23,6 +26,8 @@ function Success() {
     }
     setTheme("theme-light");
   }, []);
+  let arr = casecard.map((x) => x).filter((y) => y.Header !== Header);
+
 
   return (
     <div className="case-outer">
@@ -143,9 +148,15 @@ function Success() {
 
         <div className="Header">Other Case Studies</div>
         <div className="processsecwrapper">
-          <CaseCard />
-          <CaseCard />
-          <CaseCard />
+          {arr.map((x) => (
+            <CaseCard
+              id={x.Id}
+              header={x.Header}
+              content={x.Content}
+              link={x.Link}
+              image={x.Image}
+            />
+          ))}
         </div>
       </div>
       <Processbanner />

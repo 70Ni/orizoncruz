@@ -7,18 +7,18 @@ import Img from '../../Images/Img/xbox/Xb01.png'
 function CaseCard({id,header,content,link,image}) {
   return (
     <div>
-      <div className="casewrapper">
+      <div className="casewrapper" id={id}>
         <div className="img">
-          <img src={Img} className="caseimage" alt="case-image" />
+          <img src={image} className="caseimage" alt="case-image" />
         </div>
         <div className="Header">{header}</div>
         <div className="para casePara">
-          evenly five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged.
+          {content}
         </div>
         <div className="linktoCase storyheader">
           Check the workflow
-          <img src={arrow} alt="" className="linkarrow" />
+          <a href=""></a>
+          <img src={arrow} alt="arrow" className="linkarrow" />
         </div>
       </div>
     </div>
