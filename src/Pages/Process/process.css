@@ -8,6 +8,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.procSection:nth-child(even) {
+  flex-direction: row-reverse;
+}
 .proceshedrImg {
   height: 280px;
   border-radius: var(--Border-radius-none);
@@ -15,10 +18,10 @@
   object-fit: cover;
   margin: 40px 0px;
 }
-.proctext:nth-child(even) {
+.proctext:nth-child(odd) {
   margin-left: 120px;
 }
-.proctext:nth-child(odd) {
+.proctext:nth-child(even) {
   margin-right: 80px;
 }
 .processImage {

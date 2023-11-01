@@ -21,14 +21,16 @@ import Mission from "./Section/Mission/Mission";
 import Cinecio from "./Pages/Cases/Case02/Cinecio";
 import Squre from "./Pages/Cases/Case03/Squre";
 import Success from "./Pages/Cases/Case04/Success";
+import Contact from "./Pages/contact/Contact";
+import Navigations from "./Section/Navigation/Navigations";
 
 
 function App() {
   return (
     <div className="App">
       <div className="MainSec">
-        <Navigation />
         <Router>
+        <Navigations />
           <Routes>
             <Route exact path="/"  element={<Land />} />
             <Route  path="/casestudy"  element={<Casestudy />} />
@@ -38,7 +40,7 @@ function App() {
             <Route  path="/casepro"  element={<CasePro />} />
             <Route  path="/client"  element={<Clients />} />
             <Route  path="/process"  element={<Process />} />
-            <Route  path="/connect"  element={<Mission />} />
+            <Route  path="/contact"  element={<Contact />} />
           </Routes>
         </Router>
         {/* <Navigation /> */}

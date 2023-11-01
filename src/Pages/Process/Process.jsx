@@ -4,7 +4,8 @@ import image from "../../Images/Img/Image.png";
 import CaseBannerL from "../../Section/CaseStudyBanner/CaseBannerL";
 import CaseCard from "../Casestudy/CaseCard";
 import "../Process/process.css";
-
+import ProcesSection from "./ProcesSection";
+import data from '../../json/Process.js'
 
 function Process() {
   useEffect(() => {
@@ -20,42 +21,9 @@ function Process() {
           <img src={image} class="proceshedrImg" alt="case-image" />
         </div>
         <div className="IntroTXT">Our Design Process</div>
-        <div className="procSection">
-          <div className="proctext">
-            <div className="Header">Design Visual Elements</div>
-            <div className="para">
-              evenly five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged.
-            </div>
-          </div>
-          <div className="procImage">
-            <img src={image} alt="" className="processImage" />
-          </div>
-        </div>
-        <div className="procSection procSectionEven">
-          <div className="procImage">
-            <img src={image} alt="" className="processImage" />
-          </div>
-          <div className="proctext">
-            <div className="Header">Design Visual Elements</div>
-            <div className="para">
-              evenly five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged.
-            </div>
-          </div>
-        </div>
-        <div className="procSection">
-          <div className="proctext">
-            <div className="Header">Design Visual Elements</div>
-            <div className="para">
-              evenly five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged.
-            </div>
-          </div>
-          <div className="procImage">
-            <img src={image} alt="" className="processImage" />
-          </div>
-        </div>
+        {
+          data.map((x)=><ProcesSection header={x.Header} content={x.Content} img={x.Image} />)
+        }
       </div>
       {/* <CaseBannerL /> */}
     </div>
