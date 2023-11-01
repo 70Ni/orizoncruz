@@ -27,6 +27,7 @@ function App() {
   return (
     <div className="App">
       <div className="MainSec">
+        <Navigation />
         <Router>
           <Routes>
             <Route exact path="/"  element={<Land />} />

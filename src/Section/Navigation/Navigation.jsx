@@ -5,12 +5,10 @@ import { Nav } from 'rsuite';
 const Navbar = ({ active, onSelect, ...props }) => {
     return (
       <Nav {...props} activeKey={active} onSelect={onSelect} style={{ marginBottom: 50 }}>
-        <Nav.Item eventKey="home">
-          Home
-        </Nav.Item>
-        <Nav.Item eventKey="news">News</Nav.Item>
-        <Nav.Item eventKey="solutions">Solutions</Nav.Item>
-        <Nav.Item eventKey="products">Products</Nav.Item>
+        <Nav.Item eventKey="home" href="/">Home</Nav.Item>
+        <Nav.Item eventKey="casestudy" href='/casestudy'>Case Study</Nav.Item>
+        <Nav.Item eventKey="approach" href='process'>Process</Nav.Item>
+        <Nav.Item eventKey="products">Contact</Nav.Item>
         <Nav.Item eventKey="about">About</Nav.Item>
       </Nav>
     );
@@ -21,7 +19,7 @@ function Navigation() {
   return (
     
     <div>
-      <Navbar appearance="subtle" active={active} onSelect={setActive} />
+      <Navbar appearance="subtle" active={active} onSelect={()=>setActive(setActive)} />
     </div>
   )
 }

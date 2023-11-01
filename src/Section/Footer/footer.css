@@ -36,6 +36,9 @@
   display: flex;
   justify-content: center;
 }
+.icon {
+  margin: 14px;
+}
 .footlinks {
   padding-left: 14px;
   font-size: 20px;

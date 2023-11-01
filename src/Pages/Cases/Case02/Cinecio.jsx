@@ -6,17 +6,21 @@ import Logo from "../../../Images/Img/Deolittle.png";
 import image from "../../../Images/Img/Image.png";
 import CaseCard from "../../Casestudy/CaseCard";
 import arrow from "../../../Images/Svg/Arrowdark.svg";
-
+import casecard from '../../../json/casestudy.json'
+console.log(casecard)
 
 
 function importAll(r) {
   return r.keys().map(r);
 }
 
+
+
+
 const images = importAll(require.context('../../../Images/Img/Cine/', false, /\.(png|jpe?g|svg)$/));
 console.log(images)
 
-
+let Header = "About CineCio";
 function Cinecio() {
   useEffect(() => {
     function setTheme(themeName) {
@@ -24,6 +28,8 @@ function Cinecio() {
     }
     setTheme("theme-light");
   }, []);
+
+  let arr =casecard.map((x)=>x).filter((y)=>(y.Header !== Header));
 
   return (
     <div className="case-outer">
@@ -133,9 +139,13 @@ function Cinecio() {
      
         <div className="Header">Other Case Studies</div>
         <div className="processsecwrapper">
-          <CaseCard />
-          <CaseCard />
-          <CaseCard />
+          {
+            // casecard.map((x)=><CaseCard id={x.Id} header={x.Header} content={x.Content} link={x.Link} />)
+            // casecard.map((x)=>filter((x.Header = header) =>  <CaseCard id={x.Id} header={x.Header} content={x.Content} link={x.Link} />))
+            // console.log(casecard.map((x)=>x).filter((y)=>(y.Header !== Header)))
+            // .filter((y =>y.Header !== Header))
+            arr.map((x)=> <CaseCard id={x.Id} header={x.Header} content={x.Content} link={x.Link} /> )
+          }
         </div> 
       </div>
       <Processbanner />
